@@ -23,4 +23,4 @@ jobs:
       - name: DAG imports cleanly
         run: |
           pip install "apache-airflow==3.1.*"
-          AIRFLOW__CORE__DAGS_FOLDER=dags airflow dags list-import-errors
+          python scripts/check_dags.py dags
