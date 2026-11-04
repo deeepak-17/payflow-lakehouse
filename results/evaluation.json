@@ -1,0 +1,72 @@
+{
+ "missing_amount": {
+  "injected": 1080,
+  "caught": 1080
+ },
+ "invalid_currency": {
+  "injected": 714,
+  "caught": 714
+ },
+ "nonpositive_amount": {
+  "injected": 714,
+  "caught": 714
+ },
+ "orphan_status": {
+  "injected": 360,
+  "caught": 360
+ },
+ "quarantine_precision": {
+  "flagged": 3704,
+  "true_faults": 3704
+ },
+ "amount_as_string": {
+  "injected": 1068,
+  "recovered": 1068
+ },
+ "currency_case": {
+  "injected": 1074,
+  "recovered": 1074
+ },
+ "late_event": {
+  "injected": 1776,
+  "routed_to_correct_date": 1776
+ },
+ "duplicate_event": {
+  "injected": 6882,
+  "removed": 6882,
+  "payment_id_unique": true
+ },
+ "recon_excluded_quarantined_payment": 11,
+ "missing_in_settlement": {
+  "injected": 777,
+  "caught": 777
+ },
+ "amount_mismatch": {
+  "injected": 388,
+  "caught": 388
+ },
+ "missing_in_ledger": {
+  "injected": 194,
+  "caught": 194
+ },
+ "recon_precision": {
+  "breaks_flagged": 1359,
+  "true_breaks": 1359,
+  "recon_dates": [
+   "2026-10-01",
+   "2026-10-02",
+   "2026-10-03",
+   "2026-10-04",
+   "2026-10-05",
+   "2026-10-06",
+   "2026-10-07"
+  ]
+ },
+ "fx_fallback": [
+  {
+   "currency": "JPY",
+   "date": "2026-10-03",
+   "rows": 3092
+  }
+ ]
+}

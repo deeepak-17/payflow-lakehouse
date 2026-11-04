@@ -1,0 +1,34 @@
+[
+ {
+  "layer": "gold",
+  "name": "fact_rowcount_matches_silver",
+  "severity": "critical",
+  "observed": 0,
+  "threshold": "== 0",
+  "passed": true
+ },
+ {
+  "layer": "gold",
+  "name": "mart_count_matches_fact",
+  "severity": "critical",
+  "observed": 0,
+  "threshold": "== 0",
+  "passed": true
+ },
+ {
+  "layer": "gold",
+  "name": "mart_volume_matches_fact",
+  "severity": "critical",
+  "observed": 0.0,
+  "threshold": "<= 0.01",
+  "passed": true
+ },
+ {
+  "layer": "gold",
+  "name": "recon_break_rate",
+  "severity": "warn",
+  "observed": 0.00345,
+  "threshold": "<= 0.01",
+  "passed": true
+ }
+]

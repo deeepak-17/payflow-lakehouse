@@ -1,0 +1,58 @@
+[
+ {
+  "layer": "silver",
+  "name": "payments_not_empty",
+  "severity": "critical",
+  "observed": 238032,
+  "threshold": "> 0",
+  "passed": true
+ },
+ {
+  "layer": "silver",
+  "name": "payment_id_unique",
+  "severity": "critical",
+  "observed": 0,
+  "threshold": "== 0",
+  "passed": true
+ },
+ {
+  "layer": "silver",
+  "name": "required_fields_not_null",
+  "severity": "critical",
+  "observed": 0,
+  "threshold": "== 0",
+  "passed": true
+ },
+ {
+  "layer": "silver",
+  "name": "currency_in_reference_set",
+  "severity": "critical",
+  "observed": 0,
+  "threshold": "== 0",
+  "passed": true
+ },
+ {
+  "layer": "silver",
+  "name": "fx_coverage",
+  "severity": "critical",
+  "observed": 0,
+  "threshold": "== 0",
+  "passed": true
+ },
+ {
+  "layer": "silver",
+  "name": "quarantine_rate",
+  "severity": "warn",
+  "observed": 0.00714,
+  "threshold": "<= 0.02",
+  "passed": true
+ },
+ {
+  "layer": "silver",
+  "name": "fx_fallback_rows",
+  "severity": "warn",
+  "observed": 3092,
+  "threshold": "informational",
+  "passed": true
+ }
+]
